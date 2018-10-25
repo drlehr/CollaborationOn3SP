@@ -17,7 +17,7 @@ public class TestWorker {
    public void testWorkerWithNoName()
    {
       assertEquals(w.getName(),"");
-      assertEquals(w.work(),"I'm working already!");
+      assertEquals(w.work(),"No way, I'm working already!");
    }
 
    @Test
