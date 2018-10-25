@@ -102,10 +102,16 @@ dependencies {
             'org.junit.vintage:junit-vintage-engine:5.1.0'
     )
 }
-
+// end::dependencies[]
 test {
     useJUnitPlatform()
 }
-// end::dependencies[]
+
+// tag::wrapper[]
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.9'
+}
+// end::wrapper[]
+
 
 
