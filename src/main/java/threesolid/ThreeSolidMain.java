@@ -59,7 +59,8 @@ class Worker implements IWorker{
   	}
 
   	public String work() 
-  	{
+  	{  
+
   		if (name == "") 
     	{
        		return "I'm working already!";
@@ -81,6 +82,13 @@ class Worker implements IWorker{
     		return name + " is eating a double cheeseburger with special sauce and bacon flavored Skittles!";
     	}
 	}
+
+      public Boolean addpositive(int a, int b)
+    {
+      if ((a+b) > 0)
+        return(true);
+      return(false);
+    }
 }
 
 class SuperWorker implements IWorker{

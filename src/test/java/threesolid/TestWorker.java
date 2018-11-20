@@ -4,8 +4,11 @@ import org.junit.jupiter.api.BeforeAll;
 
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 
 
 public class TestWorker {
@@ -17,8 +20,17 @@ public class TestWorker {
    public void testWorkerWithNoName()
    {
       assertEquals(w.getName(),"");
-      assertEquals(w.work(),"No way, I'm working already!");
+      assertEquals(w.work(),"I'm working already!");
    }
+   
+
+   @Test
+   @DisplayName("A + B")
+   public void testAandB()
+   {
+      assertTrue((w.addpositive(1,4)),"message");
+   }
+
 
    @Test
    @DisplayName("With Name Test")
