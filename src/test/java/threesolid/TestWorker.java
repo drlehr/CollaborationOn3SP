@@ -1,7 +1,5 @@
 package threesolid;
-/* Adding a comment to see what changes in the .git directory */
-/* Adding comment for class */
-/* Adding yet another comment */
+/* Adding comment to kick off  a build */
 
 import org.junit.jupiter.api.BeforeAll;
 
