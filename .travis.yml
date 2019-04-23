@@ -1,2 +1,5 @@
 language: java
-script: gradle build
+script: 
+  - pwd
+  - ls -R
+  - gradle clean build
