@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
-
+/*
 public class TestWorker {
 
    private  Worker w = new Worker();
@@ -24,7 +24,7 @@ public class TestWorker {
       assertEquals(w.work(),"I'm working already!");
    }
    
-
+*/
    @Test
    @DisplayName("A + B")
    public void testAandB()
