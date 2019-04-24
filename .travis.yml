@@ -1,3 +1,6 @@
 language: java
 
-script: ./gradlew build
+script: 
+  - pwd
+  - ls -R
+  - gradle clean build
