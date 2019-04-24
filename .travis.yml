@@ -4,3 +4,4 @@ script:
   - pwd
   - ls -R
   - gradle clean build
+  - ls -R
