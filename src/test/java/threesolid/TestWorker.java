@@ -2,9 +2,7 @@ package threesolid;
 /* Adding comment to kick off  a build */
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-   private  Worker w = new Worker();
+   Worker w = new Worker();
 /*	
    @Test
    @DisplayName("No Name Test")
