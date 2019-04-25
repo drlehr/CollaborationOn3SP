@@ -37,7 +37,7 @@ public class TestWorker {
    public void testWorkerWithName()
    {
       w.setName("Corvus Glaive");
-      assertEquals(w.getName(),"Fredß");
+      assertEquals(w.getName(),"Corvus Glaive");
       assertEquals(w.work(),"Corvus Glaive is working very hard!");
    }
 
