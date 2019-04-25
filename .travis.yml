@@ -1,4 +1,3 @@
-// Travis CI distribution that will take gradle 4.10 and junit5
 dist: xenial
 
 language: java
@@ -15,7 +14,7 @@ before_deploy:
   - echo "Just generated GIT_TAG"
   - echo $GIT_TAG
   - git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
-  - git push -q https://$GITPERM@github.com/drlehr/Java_Gradle_Hello_World  --tags
+  - git push -q https://$GITPERM@github.com/drlehr/ThreeSolidPrinciples --tags
   - ls -R
   
 deploy:
