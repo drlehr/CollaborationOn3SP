@@ -1,15 +1,8 @@
 language: java
 
-before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-
-cache:
-  directories:
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
 script: 
-  - ./gradlew wrapper --gradle-version=5.5-20190425000954+0000
+// Trying to use the latest gradle, but it doesn't seem to work
+//- ./gradlew wrapper --gradle-version=5.5-20190425000954+0000
   - gradle --version
   - gradle clean build
   - ls -R
