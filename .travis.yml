@@ -9,7 +9,7 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 script: 
-  - pwd
+  - ./gradlew wrapper --gradle-version=5.5-20190425000954+0000
   - gradle --version
   - gradle clean build
   - ls -R
