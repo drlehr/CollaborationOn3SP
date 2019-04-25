@@ -3,5 +3,6 @@ language: java
 script: 
   - pwd
   - ls -R
+  - gradle --version
   - gradle clean build
   - ls -R
