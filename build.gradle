@@ -3,6 +3,7 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
+apply plugin: 'junit-platform-gradle-plugin'
 
 
 //////////////////////////////////////////////////////////////
